@@ -4,8 +4,8 @@ This is a solution to the Frontend Mentor challenges help you improve your codin
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Kannusounshar/nft-preview-card-component-main
+- Live Site URL: https://euphonious-rugelach-268d18.netlify.app
 
 ### Built with
 
