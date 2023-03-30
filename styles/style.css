@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+:root{
+  --clr-pale-blue: hsl(225, 100%, 94%);
+--clr-bright-blue: hsl(245, 75%, 52%);
+--clr-Very-pale-blue: hsl(225, 100%, 98%);
+--clr-Desaturated-blue: hsl(224, 23%, 55%);
+--clr-Dark-blue: hsl(223, 47%, 23%);
+--radius: 12px;
+}
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: var(--radius);
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  /* customize */
+  background-color: #1c2042;
+  color: white;
+  border: 2px solid #1c2042;
+}
+
+/*order summary component*/
+body{
+  background-color: var(--clr-pale-blue);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  background-color: var(--clr-Very-pale-blue);
+  width: 22rem;
+  height: auto;
+  padding-bottom: 2rem;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: center;
+}
+.card-img{
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+.card-title{
+  font-size: 1.5rem;
+  color: var(--clr-Dark-blue);
+  margin: 0 auto;
+}
+.card-description{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--clr-Desaturated-blue);
+}
+.details-container{
+  background-color: #fff;
+  width: 85%;
+  padding: 0.75rem;
+  display: flex;
+  border-radius: var(--radius);
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.plan-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.type{
+font-size: 1rem;
+font-weight: 700;
+}
+
+.price{
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--clr-Desaturated-blue);
+}
+.link-change{
+  text-decoration: underline;
+  color: var(--clr-bright-blue);
+}
+
+.btn-blue{
+  width: 80%;
+  background-color: var(--clr-bright-blue);
+  color: white;
+border: 2px solid var(--clr-bright-blue);
+}
+.link-cancel{
+  color: var(--clr-Desaturated-blue);
+}
+
+
+@media screen and (min- width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
+cutom CSS.txt
+Displaying cutom CSS.txt.
